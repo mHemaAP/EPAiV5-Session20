@@ -1,5 +1,5 @@
 # EPAiV5-Session20 - Python Classes Implementation
-This is the repository which contains the assignment work of EPAiV5 Session 20
+![Test Status](https://github.com/mHemaAP/EPAiV5-Session20/actions/workflows/python-app.yml/badge.svg)
 
 ## Overview
 The Python script demonstrates a modular and object-oriented design to solve real-world problems using classes. It includes the following main components:
@@ -111,6 +111,24 @@ print(dynamic.new_attr)  # Output: "Dynamic Value"
 
 ## Installation and Dependencies
 This code is implemented in Python 3. It uses only the built-in libraries (`datetime`, `math`, and `typing`), so no external dependencies are required.
+
+## Testing
+This repo includes unit tests to validate its functionality. To run the tests, use:
+
+```
+pytest classes_tests.py
+
+```
+
+## Test Resuts
+
+#### Local PC Test Execution
+
+![localPC_test_results](localPC_test_results.JPG)
+
+#### Workflow Actions
+
+![gitActions_tests_passed](gitActions_test_results.JPG)
 
 ## Code Design Principles
 - **Encapsulation:** Sensitive attributes are protected with `_` prefixes and managed through getter/setter methods or properties.
